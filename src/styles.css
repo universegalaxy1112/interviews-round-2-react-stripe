@@ -214,8 +214,6 @@ body::-webkit-scrollbar-thumb {
     transition: all linear 200ms;
     z-index: 1;
     cursor: pointer;
-    background: linear-gradient(45deg, #C7AE83, #fffcfc);
-    color: white;
 }
 
 .card img {

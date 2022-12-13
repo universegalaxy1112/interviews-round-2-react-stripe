@@ -13,7 +13,7 @@ function ProductCard(props) {
       {/*  */}
       <div className=' card'>
         <img
-          className='card-img-top img-fluid img-thumbnail align-self-center'
+          className='card-img-top img-fluid  align-self-center'
           src={`/images/${props.product.photo}`}
           alt='Card image cap'
           onClick={(evt) => {
