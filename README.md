@@ -1,6 +1,6 @@
 # Interviews Round 2
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Here is [Live Demo](https://clinquant-pika-ca67e8.netlify.app/).
 
 ## Available Scripts
 
