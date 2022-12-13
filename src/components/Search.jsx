@@ -27,7 +27,7 @@ function Search() {
     <>
       <h1 className='marginSearch'>Search</h1>
       <hr />
-      <div className='container align-items-center filter'>
+      <div className='container d-flex align-items-center justify-content-center filter'>
         <input
           type='text'
           value={searchText}
@@ -36,13 +36,13 @@ function Search() {
         />
       </div>
       {products.length > 0 ? (
-        <div className='col-12 col-sm-12 col-md d-flex flex-wrap align-items-center'>
+        <div className='col-12 col-sm-12 col-md d-flex flex-wrap justify-content-center align-items-center'>
           {products.map((product) => {
             return <ProductCard product={product} key={product.id} />;
           })}
         </div>
       ) : (
-        <div className='col-12 col-sm col-md d-flex justify-content-center'>
+        <div className='col-12 col-sm col-md d-flex justify-content-center mt-5'>
           <h4>No Search Result...</h4>
         </div>
       )}

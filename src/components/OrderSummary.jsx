@@ -9,7 +9,7 @@ export default function OrderSummary(props) {
         <div className='row justify-content-center'>
           <div className='col-4'>
             <h1>Order data</h1>
-            <h5> The shopping has been requested.</h5>
+            <h5> The shipping has been requested.</h5>
             <div>Email: {state.email}</div>
             <div>
               The product will be sent to -<div>{state.card.name}</div>

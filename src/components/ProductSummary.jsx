@@ -41,7 +41,7 @@ function ProductSummary() {
                   amount={TotalAmount * 100}
                   shippingAddress
                   token={tokenHandler}
-                  stripeKey='pk_test_51JSwc7SJugH4e1kT9UvwxONc2fMLnHcpjrQyroXa8163q2aeOLmvEEroRRkZeWnmzju6jfez35evdOSTKTrErdtP00McoW45sP'
+                  stripeKey='pk_test_51LxG7gIAzrcl9sc4iku7NsRXMFdVAFAYuMapJM6xhyrdxtI5l0oZVkxJeUGrizqpD5A0D6dF2e2JBlEGgXXcJ2VT00wxFU0E9U'
                   currency='USD'
                 >
                   <button className='btnCarrito '>Buy Now</button>
