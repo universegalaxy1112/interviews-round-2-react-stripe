@@ -7,9 +7,9 @@ function Cart() {
   const { cart, removeProductFromCart, error } = useContext(CartContext);
   const navigate = useNavigate();
 
-  function renderCartItem(itemInCart) {
+  function renderCartItem(itemInCart, index) {
     return (
-      <div className='row'>
+      <div className='row' key={index.toString()}>
         <div className='col-12 col-md-6'>
           <img
             className='card-img-top img-fluid align-self-center cart-img'
